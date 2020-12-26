@@ -1,0 +1,15 @@
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\bin\Debug\netcoreapp3.1\MonaQuiz.Data.deps.json
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\bin\Debug\netcoreapp3.1\MonaQuiz.Data.runtimeconfig.json
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\bin\Debug\netcoreapp3.1\MonaQuiz.Data.runtimeconfig.dev.json
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\bin\Debug\netcoreapp3.1\MonaQuiz.Data.dll
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\bin\Debug\netcoreapp3.1\MonaQuiz.Data.pdb
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\bin\Debug\netcoreapp3.1\MONAQuiz.Models.dll
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\bin\Debug\netcoreapp3.1\MONAQuiz.Models.pdb
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\obj\Debug\netcoreapp3.1\MonaQuiz.Data.csprojAssemblyReference.cache
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\obj\Debug\netcoreapp3.1\MonaQuiz.Data.AssemblyInfoInputs.cache
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\obj\Debug\netcoreapp3.1\MonaQuiz.Data.AssemblyInfo.cs
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\obj\Debug\netcoreapp3.1\MonaQuiz.Data.csproj.CoreCompileInputs.cache
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\obj\Debug\netcoreapp3.1\MonaQuiz.Data.csproj.CopyComplete
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\obj\Debug\netcoreapp3.1\MonaQuiz.Data.dll
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\obj\Debug\netcoreapp3.1\MonaQuiz.Data.pdb
+P:\ProjectQuiz\MONAQuiz\MonaQuiz.Data\obj\Debug\netcoreapp3.1\MonaQuiz.Data.genruntimeconfig.cache

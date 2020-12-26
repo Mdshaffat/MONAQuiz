@@ -1,0 +1,9 @@
+P:\ProjectQuiz\MONAQuiz\MONAQuiz.Models\bin\Debug\netcoreapp3.1\MONAQuiz.Models.deps.json
+P:\ProjectQuiz\MONAQuiz\MONAQuiz.Models\bin\Debug\netcoreapp3.1\MONAQuiz.Models.dll
+P:\ProjectQuiz\MONAQuiz\MONAQuiz.Models\bin\Debug\netcoreapp3.1\MONAQuiz.Models.pdb
+P:\ProjectQuiz\MONAQuiz\MONAQuiz.Models\obj\Debug\netcoreapp3.1\MONAQuiz.Models.csprojAssemblyReference.cache
+P:\ProjectQuiz\MONAQuiz\MONAQuiz.Models\obj\Debug\netcoreapp3.1\MONAQuiz.Models.AssemblyInfoInputs.cache
+P:\ProjectQuiz\MONAQuiz\MONAQuiz.Models\obj\Debug\netcoreapp3.1\MONAQuiz.Models.AssemblyInfo.cs
+P:\ProjectQuiz\MONAQuiz\MONAQuiz.Models\obj\Debug\netcoreapp3.1\MONAQuiz.Models.csproj.CoreCompileInputs.cache
+P:\ProjectQuiz\MONAQuiz\MONAQuiz.Models\obj\Debug\netcoreapp3.1\MONAQuiz.Models.dll
+P:\ProjectQuiz\MONAQuiz\MONAQuiz.Models\obj\Debug\netcoreapp3.1\MONAQuiz.Models.pdb
