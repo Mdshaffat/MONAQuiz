@@ -1,17 +1,19 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MonaQuiz.Data;
+using MONAQuiz.Common.Mapper;
 using MONAQuiz.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using MONAQuiz.Services.Interfaces;
+using Quizaldo.Common;
+using Quizaldo.Services.Implementations;
+using Quizaldo.Services.Interfaces;
+using ReflectionIT.Mvc.Paging;
 
 namespace MONAQuiz
 {
@@ -44,7 +46,18 @@ namespace MONAQuiz
 
             //All AddScoped
 
-            //All AddScoped
+            services.AddScoped<IQuizService, QuizService>();
+            services.AddScoped<IQuestionService, QuestionService>();
+            services.AddScoped<IUserResultService, UserResultService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IQuestionSuggestionService, QuestionSuggestionService>();
+
+            //Auto Mapper
+            services.AddAutoMapper(typeof(AutoMapperConfiguration));
+            //Using Bootstrap4
+            services.AddPaging(options => {
+                options.ViewName = "Bootstrap4";
+            });
 
             services.AddControllersWithViews();
             services.AddRazorPages();
@@ -53,6 +66,7 @@ namespace MONAQuiz
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            AdminAccount.SetupAdminAccount(app);
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

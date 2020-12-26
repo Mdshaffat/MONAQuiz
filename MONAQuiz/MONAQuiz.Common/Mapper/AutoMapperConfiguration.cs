@@ -1,12 +1,9 @@
 ﻿using AutoMapper;
-using Quizaldo.Common.ServiceModels;
-using Quizaldo.Common.ViewModels;
-using Quizaldo.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using MONAQuiz.Common.ServiceModels;
+using MONAQuiz.Common.ViewModels;
+using MONAQuiz.Models;
 
-namespace Quizaldo.Common.Mapper
+namespace MONAQuiz.Common.Mapper
 {
     public class AutoMapperConfiguration : Profile
     {
@@ -19,7 +16,7 @@ namespace Quizaldo.Common.Mapper
             this.CreateMap<Question, QuestionViewModel>().ReverseMap();
             this.CreateMap<Question, AddQuestionBindingModel>().ReverseMap();
             this.CreateMap<UserResult, UserResultViewModel>().ReverseMap();
-            this.CreateMap<QuizaldoUser, UsersRanklistViewModel>().ReverseMap();
+            this.CreateMap<ApplicationUser, UsersRanklistViewModel>().ReverseMap();
             this.CreateMap<QuizServiceModel, QuizViewModel>().ReverseMap();
             this.CreateMap<AnswersServiceModel, AnswersBindingModel>().ReverseMap();
             this.CreateMap<QuestionSuggestion, SuggestQuestionBindingModel>().ReverseMap();

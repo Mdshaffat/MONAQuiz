@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using MonaQuiz.Data;
+using MONAQuiz.Models;
+using MONAQuiz.Services.Interfaces;
 using System.Threading.Tasks;
 
 namespace Quizaldo.Services.Implementations
