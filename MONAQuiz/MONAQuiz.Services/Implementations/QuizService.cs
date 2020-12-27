@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using MonaQuiz.Data;
 using MONAQuiz.Common.ServiceModels;
 using MONAQuiz.Models;
-using Quizaldo.Services.Interfaces;
+using MONAQuiz.Services.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;

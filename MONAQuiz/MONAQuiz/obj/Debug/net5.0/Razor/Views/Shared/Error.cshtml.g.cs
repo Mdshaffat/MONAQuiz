@@ -26,8 +26,22 @@ using MONAQuiz.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "P:\ProjectQuiz\MONAQuiz\MONAQuiz\Views\_ViewImports.cshtml"
+using MONAQuiz.Web;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "P:\ProjectQuiz\MONAQuiz\MONAQuiz\Views\_ViewImports.cshtml"
+using MONAQuiz.Common.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6a5625cc8fb4476f348b0fe9041c550465d8bf9", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9aa2c4c9be81c40e0c132cfb978a477ccc25d75d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"696d78649cae5d7e354910fe4b1dd8afd76b740a", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

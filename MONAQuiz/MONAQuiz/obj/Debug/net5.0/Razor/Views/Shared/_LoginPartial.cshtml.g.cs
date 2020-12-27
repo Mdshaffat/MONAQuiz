@@ -20,6 +20,20 @@ using MONAQuiz;
 #line hidden
 #nullable disable
 #nullable restore
+#line 3 "P:\ProjectQuiz\MONAQuiz\MONAQuiz\Views\_ViewImports.cshtml"
+using MONAQuiz.Web;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "P:\ProjectQuiz\MONAQuiz\MONAQuiz\Views\_ViewImports.cshtml"
+using MONAQuiz.Common.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "P:\ProjectQuiz\MONAQuiz\MONAQuiz\Views\Shared\_LoginPartial.cshtml"
 using Microsoft.AspNetCore.Identity;
 
@@ -34,7 +48,7 @@ using MONAQuiz.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"21c7b341e02a1b2a6401aa3eb1e9fda3462081d8", @"/Views/Shared/_LoginPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9aa2c4c9be81c40e0c132cfb978a477ccc25d75d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"696d78649cae5d7e354910fe4b1dd8afd76b740a", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__LoginPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("id", new global::Microsoft.AspNetCore.Html.HtmlString("manage"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -86,7 +100,7 @@ using MONAQuiz.Models;
 #line hidden
 #nullable disable
             WriteLiteral("    <li class=\"nav-item\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21c7b341e02a1b2a6401aa3eb1e9fda3462081d87815", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21c7b341e02a1b2a6401aa3eb1e9fda3462081d88149", async() => {
                 WriteLiteral("Hello ");
 #nullable restore
 #line 11 "P:\ProjectQuiz\MONAQuiz\MONAQuiz\Views\Shared\_LoginPartial.cshtml"
@@ -115,7 +129,7 @@ using MONAQuiz.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21c7b341e02a1b2a6401aa3eb1e9fda3462081d89811", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21c7b341e02a1b2a6401aa3eb1e9fda3462081d810145", async() => {
                 WriteLiteral("\r\n            <button id=\"logout\" type=\"submit\" class=\"nav-link btn btn-link text-dark\">Logout</button>\r\n        ");
             }
             );
@@ -162,7 +176,7 @@ else
 #line hidden
 #nullable disable
             WriteLiteral("    <li class=\"nav-item\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21c7b341e02a1b2a6401aa3eb1e9fda3462081d813073", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21c7b341e02a1b2a6401aa3eb1e9fda3462081d813408", async() => {
                 WriteLiteral("Register");
             }
             );
@@ -182,7 +196,7 @@ else
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    </li>\r\n    <li class=\"nav-item\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21c7b341e02a1b2a6401aa3eb1e9fda3462081d814647", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21c7b341e02a1b2a6401aa3eb1e9fda3462081d814982", async() => {
                 WriteLiteral("Login");
             }
             );

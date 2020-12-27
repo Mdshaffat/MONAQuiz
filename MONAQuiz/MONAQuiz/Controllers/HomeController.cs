@@ -1,26 +1,39 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using MONAQuiz.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using MONAQuiz.Common.ViewModels;
+using MONAQuiz.Models;
+using MONAQuiz.Services.Interfaces;
+using ReflectionIT.Mvc.Paging;
 
-namespace MONAQuiz.Controllers
+namespace MONAQuiz.Web.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IMapper mapper;
+        private readonly IQuizService quizService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IMapper mapper, IQuizService quizService)
         {
+            this.mapper = mapper;
+            this.quizService = quizService;
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
-            return View();
+            var quizzes = (await this.quizService.AllQuizzes())
+                .Select(mapper.Map<AllQuizzesViewModel>);
+
+            var pagedQuizzes = PagingList.Create(quizzes, 8, page);
+
+            return this.View(pagedQuizzes);
         }
 
         public IActionResult Privacy()

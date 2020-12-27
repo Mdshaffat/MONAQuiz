@@ -3,7 +3,7 @@ using MONAQuiz.Common.ServiceModels;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Quizaldo.Services.Interfaces
+namespace MONAQuiz.Services.Interfaces
 {
     public interface IQuizService
     {
