@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Quizaldo.Web</title>
+    <title>@ViewData["Title"] - QuizApp</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/Index.css" />
@@ -13,16 +13,16 @@
 <body class="bg-style">
     <header>
         <ul class="customNav">
+            <li><partial name="_LoginPartial" /></li>
             <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index" title="Home"><i class="icon fas fa-home fa-2x" style="color: white"></i></a></li>
             @if (User.IsInRole("Admin"))
             {
-                <li><a class="nav-link text-dark" asp-area="" asp-controller="Quiz" asp-action="CreateQuiz" title="Create Quiz"><i class="icon fas fa-plus-square fa-2x" style="color: white"></i></a></li>
-                <li><a class="nav-link text-dark" asp-area="" asp-controller="Question" asp-action="AddQuestion" title="Add Question"><i class="icon fas fa-question-circle fa-2x" style="color: white"></i></a></li>
-                <li><a class="nav-link text-dark" asp-area="" asp-controller="QuestionSuggestion" asp-action="AllSuggestions" title="All Suggestions"><i class="icon far fa-list-alt fa-2x" style="color: white"></i></a></li>
-            }
+        <li><a class="nav-link text-dark" asp-area="" asp-controller="Quiz" asp-action="CreateQuiz" title="Create Quiz"><i class="icon fas fa-plus-square fa-2x" style="color: white"></i></a></li>
+                        <li><a class="nav-link text-dark" asp-area="" asp-controller="Question" asp-action="AddQuestion" title="Add Question"><i class="icon fas fa-question-circle fa-2x" style="color: white"></i></a></li>
+                                        <li><a class="nav-link text-dark" asp-area="" asp-controller="QuestionSuggestion" asp-action="AllSuggestions" title="All Suggestions"><i class="icon far fa-list-alt fa-2x" style="color: white"></i></a></li>
+}
             <li><a class="nav-link text-dark" asp-area="" asp-controller="QuestionSuggestion" asp-action="SuggestQuestion" title="Suggest questions"><i class="icon fab fa-angellist fa-2x" style="color: white"></i></a></li>
             <li><a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Ranklist" title="Ranklist"><i class="icon fas fa-list-ol fa-2x" style="color: white"></i></a></li>
-            <li><partial name="_LoginPartial" /></li>
         </ul>
     </header>
     <br />

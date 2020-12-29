@@ -17,7 +17,7 @@ namespace Quizaldo.Services.Implementations
         public async Task<IEnumerable<ApplicationUser>> GetUsersByTotalPoints()
         {
             var users = await this.context.Users
-                .OrderByDescending(u => u.TotalQuizPoints)
+                .OrderByDescending(u => u.TotalQuizPoints).Take(5)
                 .ToListAsync();
 
             return users;

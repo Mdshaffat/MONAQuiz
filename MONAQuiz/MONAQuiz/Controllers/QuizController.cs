@@ -80,13 +80,8 @@ namespace MONAQuiz.Web.Controllers
             return RedirectToAction("Result", "UserResult", new { id=quiz.Result.Id });
         }
 
-        public async Task<IActionResult> SearchResults(string searchTerm)
+        public async Task<IActionResult> SearchResults(string searchTerm = null)
         {
-            if (searchTerm == null)
-            {
-                return NotFound();
-            }
-
             var foundQuizzes = await this.quizService.GetSearchingResults(searchTerm);
 
             var result = new SearchResultsViewModel();

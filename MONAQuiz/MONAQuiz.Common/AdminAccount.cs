@@ -29,11 +29,11 @@ namespace Quizaldo.Common
                 if (userManager.FindByNameAsync("admin").Result == null)
                 {
                     var adminUser = new ApplicationUser();
-                    adminUser.UserName = "afroza";
-                    adminUser.Email = "afroza@admin.com";
-                    adminUser.Name = "Afroza";
+                    adminUser.UserName = "afroza@gmail.com";
+                    adminUser.Email = "afroza@gmail.com";
+                    adminUser.Name = "Afroza Khatun";
 
-                    string adminPassword = "123456";
+                    string adminPassword = "Admin@01";
 
                     IdentityResult result = userManager.CreateAsync(adminUser, adminPassword).Result;
 

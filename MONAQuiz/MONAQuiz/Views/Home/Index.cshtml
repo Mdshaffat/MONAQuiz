@@ -1,6 +1,8 @@
 ﻿@model ReflectionIT.Mvc.Paging.PagingList<MONAQuiz.Common.ViewModels.AllQuizzesViewModel>
 @using ReflectionIT.Mvc.Paging
+
 @addTagHelper *, ReflectionIT.Mvc.Paging
+
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -61,7 +63,8 @@
 </div>
 <div>
     <nav>
-        @Html.Partial("PagerOptions", this.Model)
+        @*<partial name="PagerOptions" />*@
+            @Html.Partial("PagerOptions", this.Model)
     </nav>
 </div>
 
